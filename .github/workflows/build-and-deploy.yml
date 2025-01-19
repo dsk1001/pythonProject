@@ -25,7 +25,7 @@ jobs:
         aws-region: ap-northeast-2
 
      - name: Deploy static site to S3 bucket
-       run: aws s3 sync ./test s3://dsk-cicd-bucket/
+       run: aws s3 sync ~/git/pythoProject s3://dsk-cicd-bucket/
 
 
 #     - name: deploy
